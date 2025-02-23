@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <style>
+                body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            position: relative;
+            top: 200px;
+        }
+        #back {
+            background: white;
+            padding: 2px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            position: fixed;
+            top: 540px;
+            left: 865px;
+        }
+        #back:hover:active{
+            background: grey;
+            padding: 2px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            color: #000 !important;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: orangered;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+    </style>
+</head>
+<body style="background-image:url(https://www.shutterstock.com/image-vector/happy-holi-festival-template-colorful-260nw-1319938589.jpg);background-repeat: no-repeat;background-size: cover; width: auto; height: 100%;" >
+    <span id="back"><a href="index.html">Back</a></span>
+    <div class="container">
+        <h2>Register For Holi Fest</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <input type="number" name="roll no" placeholder="Enter Your Enroll Number">
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

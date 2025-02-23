@@ -1,0 +1,112 @@
+#header_nav{
+    border-radius: 10px;
+}
+.header{
+    background-color: #d84315;
+    border-radius: 10px;
+    height: 60px;
+    font-family: cursive;
+    padding: 30px;
+    font-size: 50px;
+}
+#header_div{
+    width: auto;
+    position: sticky;
+}
+#menu_nav{
+    background-color:orangered;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    height: 60px;
+
+}
+
+#menu_ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: orangered;
+    font-size: 15px; 
+    font-weight: bolder;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+#menu_ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menu_ul li:hover{
+    border: 1px solid black;
+    transition: 200ms;
+    background-color: maroon;
+    cursor: pointer;
+    font-size: 20px;
+    background: linear-gradient(to bottom, burlywood, white);
+    text-shadow: 4px 4px 4px aquamarine;
+    box-shadow: 4px 4px 20px aquamarine;
+    opacity: 0.950;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 6px; 
+    color: black;
+}
+#event div{
+    font-size: 40px ;
+    color: #d84315;
+}
+.section {
+    padding: 40px;
+}
+.intro, .cultural, .food, .schedule, .gallery, .faq , .registration, .contact{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+}
+.intro img, .gallery img {
+    width: 35%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.cultural ul, .faq ul {
+    list-style: none;
+    padding: 0;
+    font-family: cursive;
+}
+.cultural li, .faq li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-family: cursive;
+}
+.schedule ul {
+    list-style: none;
+    padding: 0;
+    font-size: 9px;
+    font-family: cursive;
+}
+.schedule li {
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.faq {
+    background-color: #f1f1f1;
+    font-family: cursive;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+.footer-links a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
